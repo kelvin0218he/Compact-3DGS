@@ -16,6 +16,7 @@ For installation:
 ```shell
 conda env create --file environment.yml
 conda activate c3dgs
+git submodule update --init --recursive
 ```
 We used Mip-NeRF 360, Tanks & Temples, Deep Blending, and NeRF synthetic datasets.
 
